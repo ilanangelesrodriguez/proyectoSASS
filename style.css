@@ -1,4 +1,24 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 100%;
+  width: 100vw;
+  background-color: cornflowerblue;
+  min-height: 100%;
+  height: 100vh;
+}
+
 h1 {
-  color: red;
+  color: #3f3f3f;
   background-color: aquamarine;
+  font-weight: bold;
+  font-family: "Times New Roman", Times;
+  margin: 0;
+}
+
+p {
+  color: #3f3f3f;
 }/*# sourceMappingURL=style.css.map */
