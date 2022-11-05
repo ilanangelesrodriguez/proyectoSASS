@@ -17,8 +17,11 @@ h1 {
   font-weight: bold;
   font-family: "Times New Roman", Times;
   margin: 0;
+  text-transform: uppercase;
 }
 
 p {
   color: #3f3f3f;
+  font-family: "Times New Roman", Times;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
