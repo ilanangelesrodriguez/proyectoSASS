@@ -1,3 +1,6 @@
+//Importacion de extensiones
+@import "componentes";
+
 // Definir variables
 $text-color:#3f3f3f;
 @mixin formato-texto($bg-color:rgb(247, 212, 212)) {
