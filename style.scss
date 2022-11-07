@@ -3,6 +3,8 @@
 
 // Definir variables
 $text-color:#3f3f3f;
+
+//Mixins
 @mixin formato-texto($bg-color:rgb(247, 212, 212)) {
     color: $text-color;
     background-color: $bg-color;
