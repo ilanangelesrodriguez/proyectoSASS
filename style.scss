@@ -36,6 +36,12 @@ p {
         margin: 0 0.5rem;
         li {
             list-style: none;
+            font-weight: bold;
+            //pseudoclase
+            &:hover{
+                color: rgb(24, 4, 136);
+                cursor: pointer;
+            }
         }
     }
 }

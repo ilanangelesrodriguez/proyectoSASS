@@ -37,4 +37,9 @@ p {
 }
 .listado ul li {
   list-style: none;
+  font-weight: bold;
+}
+.listado ul li:hover {
+  color: rgb(24, 4, 136);
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
