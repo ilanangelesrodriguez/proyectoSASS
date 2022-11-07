@@ -10,3 +10,8 @@
         color: darkblue;
     }
 }
+.btn-2 {
+    @extend .btn;
+    margin: 0.5rem;
+    border-radius: 0.25rem;
+}

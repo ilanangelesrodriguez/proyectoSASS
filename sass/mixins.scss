@@ -1,0 +1,9 @@
+// Definir variables
+$text-color:#3f3f3f;
+
+@mixin formato-texto($bg-color:rgb(247, 212, 212)) {
+    color: $text-color;
+    background-color: $bg-color;
+    font-family: 'Times New Roman', Times;
+    text-transform: uppercase;
+}

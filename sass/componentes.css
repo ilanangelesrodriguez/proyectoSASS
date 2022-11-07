@@ -1,0 +1,17 @@
+.btn, .btn-2 {
+  border: none;
+  padding: 0.25rem 0.5rem;
+  color: #2b2b2b;
+  border-radius: 25px;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn:hover, .btn-2:hover {
+  background-color: cyan;
+  color: darkblue;
+}
+
+.btn-2 {
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+}/*# sourceMappingURL=componentes.css.map */

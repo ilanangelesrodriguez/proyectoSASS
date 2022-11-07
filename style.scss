@@ -1,52 +1,15 @@
 //Importacion de extensiones
-@import "componentes";
 
-// Definir variables
-$text-color:#3f3f3f;
+//Componentes
+@import "sass/componentes.scss";
 
 //Mixins
-@mixin formato-texto($bg-color:rgb(247, 212, 212)) {
-    color: $text-color;
-    background-color: $bg-color;
-    font-family: 'Times New Roman', Times;
-    text-transform: uppercase;
-}
+@import "sass/mixins.scss";
 
-body{
-    max-width: 100%;
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-}
-.container {
-    background-color: cornflowerblue;
-    min-height: 100%;
-    height: 100vh;
-    padding: 0.5rem;
-}
-h1 {
-    font-weight: bold;
-    @include formato-texto();
-}
-p {
-    @include formato-texto();
-}
+//Estilos
+@import "sass/estilos.scss";
 
-//Anidado
-.listado {
-    width: 10rem;
-    background-color: aquamarine;
-    padding: 0.5rem;
-    ul {
-        margin: 0 0.5rem;
-        li {
-            list-style: none;
-            font-weight: bold;
-            //pseudoclase
-            &:hover{
-                color: rgb(24, 4, 136);
-                cursor: pointer;
-            }
-        }
-    }
-}
+//Paginas
+//Pagina principal
+//Pagina de contacto
+//Pagina de aviso legal
