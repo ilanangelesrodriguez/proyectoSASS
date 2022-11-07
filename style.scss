@@ -1,6 +1,6 @@
 // Definir variables
 $text-color:#3f3f3f;
-@mixin formato-texto($bg-color) {
+@mixin formato-texto($bg-color:rgb(247, 212, 212)) {
     color: $text-color;
     background-color: $bg-color;
     font-family: 'Times New Roman', Times;
@@ -8,12 +8,12 @@ $text-color:#3f3f3f;
 }
 
 body{
+    max-width: 100%;
+    width: 100vw;
     padding: 0;
     margin: 0;
 }
 .container {
-    max-width: 100%;
-    width: 100vw;
     background-color: cornflowerblue;
     min-height: 100%;
     height: 100vh;
@@ -21,8 +21,21 @@ body{
 }
 h1 {
     font-weight: bold;
-    @include formato-texto(rgb(247, 212, 212));
+    @include formato-texto();
 }
 p {
-    @include formato-texto(rgb(167, 171, 221));
+    @include formato-texto();
+}
+
+//Anidado
+.listado {
+    width: 10rem;
+    background-color: aquamarine;
+    padding: 0.5rem;
+    ul {
+        margin: 0 0.5rem;
+        li {
+            list-style: none;
+        }
+    }
 }

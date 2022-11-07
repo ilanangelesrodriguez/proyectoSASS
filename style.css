@@ -1,11 +1,11 @@
 body {
+  max-width: 100%;
+  width: 100vw;
   padding: 0;
   margin: 0;
 }
 
 .container {
-  max-width: 100%;
-  width: 100vw;
   background-color: cornflowerblue;
   min-height: 100%;
   height: 100vh;
@@ -22,7 +22,19 @@ h1 {
 
 p {
   color: #3f3f3f;
-  background-color: rgb(167, 171, 221);
+  background-color: rgb(247, 212, 212);
   font-family: "Times New Roman", Times;
   text-transform: uppercase;
+}
+
+.listado {
+  width: 10rem;
+  background-color: aquamarine;
+  padding: 0.5rem;
+}
+.listado ul {
+  margin: 0 0.5rem;
+}
+.listado ul li {
+  list-style: none;
 }/*# sourceMappingURL=style.css.map */
