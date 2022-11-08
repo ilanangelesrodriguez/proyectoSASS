@@ -1,13 +1,15 @@
 //Importacion de extensiones
 
 //Componentes
-@import "sass/componentes.scss";
+@use "sass/componentes.scss";
+// $color
 
 //Mixins
-@import "sass/mixins.scss";
+@use "sass/mixins.scss";
+// $color
 
 //Estilos
-@import "sass/estilos.scss";
+@use "sass/estilos.scss";
 
 //Paginas
 //Pagina principal
