@@ -1,3 +1,5 @@
+//// Funciones con cadenas de texto
+
 @use "sass:string";
 
 @debug "hola";
@@ -7,3 +9,11 @@ $string: "Helvetica";
 $newString: string.insert($string, " bold",10);
 
 @debug $newString;
+@debug string.length($newString);
+@debug string.slice($newString, 5, 9);
+
+@debug string.to-upper-case("Roboto Mono");
+@debug string.to-lower-case("Roboto Mono");
+
+//Crear id
+@debug string.unique-id();
