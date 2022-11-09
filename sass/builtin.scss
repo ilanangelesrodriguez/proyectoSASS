@@ -70,7 +70,11 @@ $selector-2:".disabled";
 @debug selector.append($selector-1, $selector-2);
 
 //// Funciones de colores 
-$color: #2f3be2;
+$color: rgb(47, 59, 226);
 @debug color.adjust($color,$red:50);
 
 $color-2:rgb(97, 59, 226);
+
+@debug color.red($color);
+@debug color.green($color);
+@debug color.blue($color);
