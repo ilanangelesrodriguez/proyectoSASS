@@ -4,6 +4,9 @@
 //// Funciones con numeros
 @use "sass:math";
 
+//// Funciones con listas
+@use "sass:list";
+
 @debug "hola";
 @debug string.index("Helvetica Neve","Neve");
 
@@ -41,3 +44,16 @@ $newString: string.insert($string, " bold",10);
 @debug math.sin(45deg);
 @debug math.cos(45deg);
 @debug math.tan(45deg);
+
+//// Funciones con listas
+$lista1:10px, 10px, 0px, 15px;
+
+@debug $lista1;
+@debug list.append($lista1, 25px, space);
+
+$border-custom: solid 1px #ccc;
+@debug list.index($border-custom,#ccc);
+
+@debug list.join($lista1,$border-custom,auto);
+
+@debug list.separator($border-custom);
