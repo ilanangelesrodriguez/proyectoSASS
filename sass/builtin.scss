@@ -1,6 +1,8 @@
 //// Funciones con cadenas de texto
-
 @use "sass:string";
+
+//// Funciones con numeros
+@use "sass:math";
 
 @debug "hola";
 @debug string.index("Helvetica Neve","Neve");
@@ -17,3 +19,25 @@ $newString: string.insert($string, " bold",10);
 
 //Crear id
 @debug string.unique-id();
+
+
+//// Funciones con numeros
+@debug math.$e;
+@debug math.$pi;
+
+@debug math.floor(4.3);
+@debug math.ceil(4.3);
+@debug math.round(4.3);
+
+@debug math.clamp(0,24,10);
+
+@debug math.max(1,4,7,8);
+@debug math.min(1,4,7,8);
+
+@debug math.abs(-5);
+
+@debug math.pow(2,3);
+
+@debug math.sin(45deg);
+@debug math.cos(45deg);
+@debug math.tan(45deg);
